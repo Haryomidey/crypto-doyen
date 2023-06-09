@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* 
+
+navbar_hover: #F2F2F2;
+blue:#67CEF3;
+
+*/
+
+.navbar_shadow{
+  box-shadow: 0 0 10px rgb(195, 195, 195);
+}
+
+.nav_menu_shadow{
+  box-shadow: 10px 5px 10px rgba(238, 236, 236, 0.283);
+}
