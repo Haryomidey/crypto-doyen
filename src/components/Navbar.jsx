@@ -48,9 +48,9 @@ const Navbar = () => {
 
   return (
     <div className='w-full h-20 navbar_shadow px-5 flex items-center justify-between fixed bg-white top-0'>
-      <h1 className='font-semibold desktop_large:w-[20%] w-[50%] tablet:text-2xl'>CRYPO DOYEN</h1>
+      <h1 className='font-semibold desktop_large:w-[20%] w-[50%] tablet:text-2xl text-black'>CRYPO DOYEN</h1>
         <div className={`desktop_large:h-full desktop_large:static fixed left-0 top-[81px] h-screen w-full desktop_large:w-[80%] ${navMenu ? 'bg-[#e1dfdfb7]' : 'bg-transparent'} transition-[all] ease duration-300`}>
-            <ul className={`bg-white justify-end desktop_large:h-full desktop_large:flex gap-x-6 px-2 desktop_large:pt-0 pt-4 w-full desktop_large:max-w-[100%] max-w-[400px] nav_menu_shadow transition-[margin-left] ease duration-300 ${navMenu ? 'ml-0' : 'desktop_large:ml-0 ml-[-100%]'} h-full`}>
+            <ul className={`bg-white justify-end desktop_large:h-full desktop_large:flex gap-x-6 px-2 desktop_large:pt-0 pt-4 w-full text-black desktop_large:max-w-[100%] max-w-[400px] nav_menu_shadow transition-[margin-left] ease duration-300 ${navMenu ? 'ml-0' : 'desktop_large:ml-0 ml-[-100%]'} h-full`}>
                 <li className='desktop_large:h-full hover:bg-[#F2F2F2] transition-bg ease duration-300 cursor-pointer desktop_large:py-0 py-4 desktop_large:flex items-center px-3 justify-center desktop_large:relative'>
                     <div className='flex items-center h-full' onClick={() => handleClick('button1')}>
                         <p>I speak</p>
