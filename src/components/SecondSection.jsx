@@ -5,7 +5,7 @@ import TestimonialSlider from './TestimonialSlider';
 import Halloween from '../assets/images/halloween.jpeg';
 import Stage from '../assets/images/stage.jpeg';
 import OnStage from '../assets/images/onStage.jpg';
-import OnStageTwo from '../assets/images/onStage_two.jpeg';
+import OnStageTwo from '../assets/images/onstage_two.jpeg';
 
 const SecondSection = () => {
   return (
