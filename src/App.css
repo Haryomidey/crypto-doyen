@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 
@@ -21,4 +22,16 @@ blue:#67CEF3;
 
 .nav_menu_shadow{
   box-shadow: 10px 5px 10px rgba(238, 236, 236, 0.283);
+}
+
+.scrollbar_hide::-webkit-scrollbar{
+  display: none;
+}
+
+.chat_shadow{
+  box-shadow: 1px 1px 10px #0000009a;
+}
+
+.chat_box_shadow{
+  box-shadow: 1px 1px 10px #0000006f;
 }
